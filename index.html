@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Emeka Akalazu - Portfolio</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #2980b9;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #334155;
+            --text-light: #64748b;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--text);
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        header {
+            background-color: var(--primary);
+            color: #ffffff;
+            padding: 50px 30px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 1.1rem;
+            color: #cbd5e1;
+        }
+        .contact-info {
+            margin-top: 15px;
+            font-size: 0.95rem;
+        }
+        .contact-info a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+        section {
+            background-color: var(--card-bg);
+            padding: 30px;
+            margin-top: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+        .job, .project-item {
+            margin-bottom: 25px;
+        }
+        .job:last-child, .project-item:last-child {
+            margin-bottom: 0;
+        }
+        .job-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: var(--primary);
+        }
+        .job-meta {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 8px;
+        }
+        ul {
+            margin: 8px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .skill-category h3 {
+            font-size: 1rem;
+            color: var(--accent);
+            margin: 0 0 8px 0;
+        }
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .skill-tags li {
+            background-color: #f1f5f9;
+            color: var(--text);
+            padding: 5px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            margin-bottom: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header / Hero Section -->
+        <header>
+            <h1>Prince Emeka Akalazu</h1>
+            <p>AI Data Annotation | Graphic Design & Creative Media | Operations</p>
+            <div class="contact-info">
+                📍 Mission, BC &nbsp;|&nbsp; ✉️ <a href="mailto:yopyryder@gmail.com">yopyryder@gmail.com</a>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Versatile and dependable professional with a unique blend of experience spanning AI data annotation, creative media, and site construction operations. Holds a Bachelor of Arts in Theatre Arts, bringing strong visual communication, prompt evaluation, problem-solving, and efficient teamwork to dynamic, fast-paced environments.</p>
+        </section>
+
+        <!-- Core Skills -->
+        <section>
+            <h2>Core Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>AI & Technical</h3>
+                    <ul class="skill-tags">
+                        <li>AI Data Annotation</li>
+                        <li>Prompt Engineering & Evaluation</li>
+                        <li>Multimodal Quality Assurance</li>
+                        <li>Data Labeling</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Design & Creative</h3>
+                    <ul class="skill-tags">
+                        <li>Graphic Design</li>
+                        <li>Visual Layouts</li>
+                        <li>Branding</li>
+                        <li>Digital Media & Creative Direction</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Operations & Core Strengths</h3>
+                    <ul class="skill-tags">
+                        <li>Site Maintenance & Safety Compliance</li>
+                        <li>Material Handling & Equipment Operation</li>
+                        <li>Teamwork & Collaboration</li>
+                        <li>Problem Solving & Time Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section>
+            <h2>Work Experience</h2>
+            
+            <div class="job">
+                <div class="job-title">AI Data Annotation & Trainer</div>
+                <div class="job-meta">Hedgehog Handshake Project (Remote) | April 15, 2026 – October 21, 2026</div>
+                <ul>
+                    <li>Designed, evaluated, and refined complex prompts to train and improve AI model accuracy across multimodal tasks (audio, visual, and text).</li>
+                    <li>Conducted side-by-side data evaluations and quality assessments to ensure strict compliance with project benchmarks and guidelines.</li>
+                    <li>Analyzed model outputs for factual precision, clarity, and visual alignment, applying critical thinking and nuanced analysis to optimize output quality.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-title">Construction Laborer</div>
+                <div class="job-meta">Mission, BC | Present</div>
+                <ul>
+                    <li>Perform site preparation, material handling, equipment operation, and general labor tasks supporting daily site operations.</li>
+                    <li>Collaborate productively with multi-disciplinary trade crews to maintain strict safety standards and complete project deliverables on schedule.</li>
+                    <li>Demonstrate strong adaptability, physical stamina, and a highly dependable work ethic under demanding work conditions.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-title">Graphic Designer</div>
+                <div class="job-meta">Previous Experience</div>
+                <ul>
+                    <li>Developed original visual concepts, branding graphics, and layouts for digital and print media applications.</li>
+                    <li>Communicated closely with clients to interpret visual requirements, adhere to brand guidelines, and deliver high-quality assets on deadline.</li>
+                    <li>Applied principles of visual storytelling, color theory, and composition to enhance communication and audience engagement.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <div class="job">
+                <div class="job-title">Bachelor of Arts (BA) in Theatre Arts</div>
+                <div class="job-meta">Imo State University, Owerri, Nigeria | Graduated: 2018</div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Prince Emeka Akalazu. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
